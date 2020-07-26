@@ -1,12 +1,12 @@
 学习笔记
-* ####递归特性与要点
+* #### 递归特性与要点
 
     1.不要人肉递归
     
     2.找到最近最简的方法将其拆解成重复性问题
 
     3.数学归纳法思维
-* ####递归模板
+* #### 递归模板
 ```
 public void recur(int level, int param) { 
   // terminator 
@@ -21,11 +21,11 @@ public void recur(int level, int param) {
   // restore current status 
 }
 ```
-* ####分治与回溯
+* #### 分治与回溯
 
 本质上是较为复杂的递归，将复杂问题分解为重复性的子问题
 
-* ####代码模板
+* #### 代码模板
 ```
 int divide_conquer(Problem *problem, int params) {
   // recursion terminator
