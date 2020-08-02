@@ -1,4 +1,4 @@
-class LeetCode_31{
+class LeetCode_33{
 	//搜索旋转排序数组
 	public int search(int[] nums, int target) {
         if(nums == null||nums.length==0) {
